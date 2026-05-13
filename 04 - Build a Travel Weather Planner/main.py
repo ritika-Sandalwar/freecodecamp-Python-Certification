@@ -13,7 +13,8 @@ has_car = False
 # create a variable has_ride_share_app (a boolean representing if the user has an app that allows them to request a ride)
 has_ride_share_app = False
 
-# If distance_mi is a falsy value: You should print False. If the distance is less than or equal to 1 mile: You should print True only if it is not raining.
+# If distance_mi is a falsy value: 
+# You should print False. If the distance is less than or equal to 1 mile: You should print True only if it is not raining.
 if distance_mi and distance_mi <= 1 and not is_raining :
     print('True')
 
